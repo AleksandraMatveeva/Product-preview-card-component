@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 750px;
+  height: 500px; 
+}
+
+
+.image{
+  width: auto;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.text-zone{
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+.head{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 13px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.par1{
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+.par2{
+  font-size: 14px;
+  font-family: Montserrat;
+  margin-left: 30px;
+  margin-top: 25px;
+  line-height: 1.70;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  padding-right: 30px;
+}
+
+.price{
+  margin-left: 30px;
+  margin-top: 25px;
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 38px;
+  color: hsl(158, 36%, 37%);
+}
+
+.old-price{
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(228, 12%, 48%);
+  margin-left: 200px;
+  position: fixed;
+  top: 515px;
+  padding-right: 10px;
+}
+
+.button{
+  background-color: hsl(158, 36%, 37%);
+  padding: 15px 60px 15px 60px;
+  color: white;
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 60px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: hsl(158, 21%, 44%);
+}
